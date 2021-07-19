@@ -113,7 +113,6 @@ def setConnections(par):
                 wInh.extend([0]*len(netTemp[tempConn]))
                 
                 # delays for excitatory local connections
-                #delays.extend(np.random.randn(len(netTemp[tempConn]))*par["delayStdRR"]+par["delayMeanRR"])
                 delays.extend(np.random.uniform(par["delayStdRR"]-par["delayMeanRR"],par["delayStdRR"]+par["delayMeanRR"],len(netTemp[tempConn])))
                 
                 ############################### Long Range ###################
@@ -201,7 +200,6 @@ def setConnections(par):
                 # local inhibitory weights
                 wInh.extend(wInhTemp) 
                 # delays for inhibitory local connections
-                #delays.extend(np.random.randn(len(netTemp[tempConn]))*par["delayStdRR"]+par["delayMeanRR"])
                 delays.extend(np.random.uniform(par["delayStdRR"]-par["delayMeanRR"],par["delayStdRR"]+par["delayMeanRR"],len(netTemp[tempConn])))
                 
                 ###################################################################        

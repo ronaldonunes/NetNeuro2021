@@ -43,21 +43,21 @@ def setParameters():
       "rateStim": 8000,
      ## Connection parameters
       "wEEMean":2.5, # Excitatory to Excitatory
-      "wEEStd":1.0,  ##### Verificar se nao haverá valores negativos
+      "wEEStd":1.0,  
       "wEIMean":2.5, # Excitatory to Inhibitory # mudei aqui 1 is ok
-      "wEIStd":1.0,  ##### Verificar se nao haverá valores negativos
+      "wEIStd":1.0,  
       "wIEMean":240, # Inhibitory to Excitatory
       "wIEStd":10,
       "wIIMean":240, # Inhibitory to Inhibitory
       "wIIStd":10,
       "wInputMean":3.2, # Poisson to Networks 
-      "wInputStd":1.0,  ##### Verificar se nao haverá valores negativos
-      "muE":50, #50 50
-      "muI":25, #5  25
+      "wInputStd":1.0,  
+      "muE":50, 
+      "muI":25, 
       "wStimV1":0, # Stimulus to V1
       "wStimS1":0, # Stimulus to S1
       "delayMeanRR":1,
-      "delayStdRR":0,#1,
+      "delayStdRR":0,
       ## Initialization
       "VIniMean": -65*mV,
       "VIniStd": 2*mV,
@@ -65,11 +65,11 @@ def setParameters():
       "gIIni": 0*nS,
       "gExtIni": 0*nS,
        ## Path to FLN
-      "Flnpath":os.path.abspath(os.path.join(os.getcwd(), os.pardir))+'/Data/Connectome/Kennedy.mat',
+      "Flnpath":os.path.abspath(os.path.join(os.getcwd(), os.pardir))+'/data/Connectome/Kennedy.mat',
        ## Path to distance
-      "Dpath":os.path.abspath(os.path.join(os.getcwd(), os.pardir))+'/Data/Connectome/KennedyDistance.mat',
+      "Dpath":os.path.abspath(os.path.join(os.getcwd(), os.pardir))+'/data/Connectome/KennedyDistance.mat',
        ## Path to save files
-      "pathFiles":os.path.abspath(os.path.join(os.getcwd(), os.pardir))+'/Data/',
+      "pathFiles":os.path.abspath(os.path.join(os.getcwd(), os.pardir))+'/data/',
       # Axonal velocity
       "speed": 3.5
         }
