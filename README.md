@@ -3,7 +3,7 @@
 
 ## Model
 
-The model simulates 19 spiking neuronal networks where the synaptic weights are based on mouse cortical connectome.
+The model simulates 19 spiking neuronal networks where the interareal synaptic weights are based on mouse cortical connectome.
 
 ## Analysis 
 
