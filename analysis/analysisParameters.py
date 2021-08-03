@@ -29,8 +29,8 @@ def parameters(seed):
       "criterion":1, # Information criteria for MVAR model (AIC) 
       "nfreqGPDC":1000, # Number of the frequencies in GPDC
       ## Path to FLN
-      "Flnpath":'/home/ronaldo/github/ProjectUfabc/MouseKennedySNN/Data/Connectome/Kennedy.mat',
-      'path': '/home/ronaldo/github/ProjectUfabc/MouseKennedySNN/Data/SimulationData/Seed'+str(seed)+'/', #pathFolder                                  
+      "Flnpath":'../data/Connectome/Kennedy.mat',
+      'path': '../data/Seed'+str(seed)+'/', #pathFolder                                  
       
       }
 

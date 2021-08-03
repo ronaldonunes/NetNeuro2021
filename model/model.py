@@ -65,11 +65,11 @@ def setParameters():
       "gIIni": 0*nS,
       "gExtIni": 0*nS,
        ## Path to FLN
-      "Flnpath":os.path.abspath(os.path.join(os.getcwd(), os.pardir))+'/data/Connectome/Kennedy.mat',
+      "Flnpath":'../data/Connectome/Kennedy.mat',
        ## Path to distance
-      "Dpath":os.path.abspath(os.path.join(os.getcwd(), os.pardir))+'/data/Connectome/KennedyDistance.mat',
+      "Dpath":'../data/Connectome/KennedyDistance.mat',
        ## Path to save files
-      "pathFiles":os.path.abspath(os.path.join(os.getcwd(), os.pardir))+'/data/',
+      "pathFiles":'../data/',
       # Axonal velocity
       "speed": 3.5
         }
