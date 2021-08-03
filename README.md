@@ -7,7 +7,7 @@ The model simulates 19 spiking neuronal networks where the synaptic weights are 
 
 ## Analysis 
 
-Analysis of GPDC, Synchronization and computation of firing rate.
+Computation of GPDC, synchronization, psd and firing rate.
 
 ## Notebook
 
