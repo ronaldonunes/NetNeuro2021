@@ -7,7 +7,7 @@ The model simulates 19 spiking neuronal networks where the interareal synaptic w
 
 ## Analysis 
 
-Computation of GPDC, synchronization, psd and firing rate.
+Computation of GPDC, synchronization, psd and firing rate. 
 
 ## Notebook
 
