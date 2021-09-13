@@ -1,5 +1,7 @@
 # **NetNeuro2021**
 
+Ronaldo V. Nunes, Marcelo B. Reyes, Jorge F. Mejias, Raphael Y. de Camargo; Directed functional and structural connectivity in a large-scale model for the mouse cortex. Network Neuroscience 2021; doi: <https://doi.org/10.1162/netn_a_00206>
+
 
 ## Model
 
