@@ -41,7 +41,7 @@ def pdc_function(A,SIG,N,Fs):
         
         As=np.zeros((M,M),dtype=complex) #
         
-        # Aqui ta errado
+    
         for k in range(1,p+2):
            As=As+A[:,(k*M-1)+(1-np.arange(M,0,-1))]*np.exp(-z*(k-1)*f[n]) #
     
